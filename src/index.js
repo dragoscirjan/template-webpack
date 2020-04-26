@@ -1,7 +1,8 @@
 import './style-css.css';
 import './style-sass.sass';
 
-import './test-js.js';
+import './test-js';
+import './test-ts.ts';
 
 // if you remove the filename configs from webpack.config.js, this can replace
 // the html content in body

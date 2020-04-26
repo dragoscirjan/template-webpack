@@ -12,16 +12,27 @@ module.exports = ({ mode }) => {
       port: 9000
     },
     devtool: mode === 'development' ? 'source-map' : 'none',
+    entry: './src/index.js', // if you decied to use EcmaScript
+    // entry: './src/index.ts', // if you decide to use TypeScript
     mode,
     module: {
       rules: [
-        // load babel (js) files
+        // load babel (jsx?) files
         {
-          test: /\.m?js$/,
           exclude: /(node_modules|bower_components)/,
+          test: /\.m?jsx?$/,
           use: {
             loader: 'babel-loader'
           }
+        },
+        // load typescript (tsx?) filex
+        {
+          exclude: /node_modules/,
+          test: /\.tsx?$/,
+          use: [
+            'babel-loader',
+            'ts-loader'
+          ],
         },
         // load simple css files
         {
@@ -64,13 +75,21 @@ module.exports = ({ mode }) => {
       ]
     },
     plugins: [].concat(
-      mode === 'development' ? [ new uglifyJsPlugin() ] : [ ],
+      mode === 'production' ? [ new uglifyJsPlugin() ] : [ ],
       [
         new HTMLWebpackPlugin({
           template: path.resolve(__dirname, 'index.html'),
         }),
         new webpack.HotModuleReplacementPlugin(),
       ]
-    )
+    ),
+    resolve: {
+      extensions: [ // place them in the order of your choice
+        '.js',
+        '.jsx',
+        '.ts',
+        '.tsx',
+      ],
+    }
   };
 };

@@ -62,6 +62,8 @@
     "postcss-nested": "^4.2.1",
     "prettier": "^1.19.1",
     "release-it": "^12.6.1",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
