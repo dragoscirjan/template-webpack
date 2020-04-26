@@ -1,9 +1,12 @@
-export class X {
-  constructor(x) {
-    this.x = x;
-  }
+import './style-css.css';
+import './style-sass.sass';
 
-  get foo() {
-    return this.x;
-  }
-}
+import './test-js.js';
+
+// if you remove the filename configs from webpack.config.js, this can replace
+// the html content in body
+
+// const elem = document.createElement('h1');
+// elem.innerText = 'Hello World!';
+
+// document.querySelector('body').appendChild(elem);
