@@ -1,5 +1,4 @@
 {
-    "ext": "js,jsx",
-    "verbose": true
+  "ext": "js,jsx",
+  "verbose": true
 }
-  

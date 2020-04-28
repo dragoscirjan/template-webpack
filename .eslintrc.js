@@ -1,6 +1,9 @@
 // .eslintrc.js
 module.exports = {
-  plugins: ['mocha'],
+  plugins: [
+    'html',
+    'mocha'
+  ],
   env: {
     browser: true,
     es6: true,

@@ -1,3 +1,9 @@
+:root {
+  --font-stack: helvetica, sans-serif;
+  --primary-color: #333;
+}
+
 body {
-  background-color: #FF9;
+  font: 100% var(--font-stack);
+  color: var(--primary-color);
 }

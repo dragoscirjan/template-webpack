@@ -7,12 +7,13 @@ Set of shield/badges explaining where to find more information about the project
 <!-- [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dragoscirjan/template/issues) -->
 
 [![TravisCI](https://travis-ci.org/dragoscirjan/template.svg?branch=master)](https://travis-ci.org/dragoscirjan/template)
+
 <!-- [![CircleCI](https://circleci.com/gh/dragoscirjan/template.svg?style=shield)](https://circleci.com/gh/dragoscirjan/template) -->
 
-[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=alert_status)](https://sonarcloud.io/dashboard?id=dragoscirjan_template) 
- [![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=dragoscirjan_template)
- [![SonarCloud Bugs](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=bugs)](https://sonarcloud.io/component_measures/metric/reliability_rating/list?id=dragoscirjan_template)
- [![SonarCloud Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=vulnerabilities)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=dragoscirjan_template)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=alert_status)](https://sonarcloud.io/dashboard?id=dragoscirjan_template)
+[![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=dragoscirjan_template)
+[![SonarCloud Bugs](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=bugs)](https://sonarcloud.io/component_measures/metric/reliability_rating/list?id=dragoscirjan_template)
+[![SonarCloud Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dragoscirjan_template&metric=vulnerabilities)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=dragoscirjan_template)
 
 <!--
 [![Donate to this project using Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://patreon.com/dragoscirjan)
@@ -32,8 +33,8 @@ One Paragraph of project description goes here
 
 <!--
 Insert Table of Contents Here
-This can be done using [AlanWalk.markdown-toc](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) plugin, 
-which is also included in 
+This can be done using [AlanWalk.markdown-toc](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc) plugin,
+which is also included in
 [itmcdev.generic-extension-pack](https://marketplace.visualstudio.com/items?itemName=itmcdev.generic-extension-pack) extension pack.
 -->
 <!-- TOC -->
@@ -64,14 +65,15 @@ which is also included in
 
 ### Prereqiusites / Dependencies
 
-What things you need to install the software and how to install them (based on each OS type). 
+What things you need to install the software and how to install them (based on each OS type).
 
 #### For Windows
+
 ```bash
 # Give Examples
 
 npm install -g node-gyp windows-build-tools
-# Warning: Please note windows-build-tools will install MSVS which takes a 
+# Warning: Please note windows-build-tools will install MSVS which takes a
 # LONG amount of time.
 ```
 
@@ -91,7 +93,6 @@ Describe a list of known issues, and how to bypass them.
 ### Installation
 
 A step by step series of examples that tell you how to get a development env running
-
 
 #### Say what the step will be
 
@@ -117,10 +118,10 @@ give examples
 
 ### Testing
 
-
 Explain how to run the automated tests for this system
 
 #### Break down into (at least) unit tests
+
 Explain what these tests test and why
 
 ```
@@ -128,6 +129,7 @@ Give an example
 ```
 
 #### and end to end tests
+
 Explain what these tests test and why
 
 ```
@@ -147,7 +149,8 @@ Give an example
 Add additional notes about how to deploy this on a live system
 
 ## Authors
-* [Dragos Cirjan](mailto:dragos.cirjan@gmail.com) - Initial work - [PurpleBooth](#link-to-change)
+
+- [Dragos Cirjan](mailto:dragos.cirjan@gmail.com) - Initial work - [PurpleBooth](#link-to-change)
 
 See also the list of contributors who participated in this project.
 
